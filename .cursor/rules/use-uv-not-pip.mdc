@@ -1,0 +1,42 @@
+---
+description: Python 패키지 관리 시 pip 대신 uv 사용
+alwaysApply: true
+---
+
+# Python 패키지 관리: uv 사용
+
+이 프로젝트는 **uv**로 패키지를 관리한다. **pip는 사용하지 않는다.**
+
+## 규칙
+
+- `pip install` → 사용 금지
+- `pip` 명령어 전체 → 사용 금지
+- 의존성 추가/설치/동기화는 **반드시 uv** 사용
+
+## uv 명령어 매핑
+
+| pip (금지) | uv (사용) |
+|------------|-----------|
+| `pip install <pkg>` | `uv add <pkg>` |
+| `pip install -r requirements.txt` | `uv sync` |
+| `pip install -e .` | `uv sync` |
+| `pip list` | `uv pip list` 또는 `uv tree` |
+| `pip freeze` | `uv lock` (uv.lock 생성) |
+
+## 예시
+
+```bash
+# ✅ 의존성 추가
+uv add feedparser httpx
+
+# ✅ 의존성 동기화 (pyproject.toml 기준)
+uv sync
+
+# ✅ 스크립트 실행 (가상환경 자동 사용)
+uv run python src/collect.py
+```
+
+## 주의
+
+- `requirements.txt`를 수동 편집하지 말 것. `pyproject.toml`의 `[project].dependencies`만 수정.
+- 새 패키지 추가 시: `uv add <package>` 실행.
