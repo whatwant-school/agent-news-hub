@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agent News Hub</title>
+  <meta name="description" content="AI Agent 도구들의 최신 뉴스를 모아서 보여주는 사이트">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">본문으로 건너뛰기</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="site-logo" aria-label="AI Agent News Hub 홈">
+          <span class="logo-icon" aria-hidden="true">⚡</span>
+          <span class="logo-text">AI Agent News Hub</span>
+        </a>
+        <p class="site-tagline">AI Agent 도구들의 최신 소식을 한곳에</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+
+      <!-- 검색 & 필터 -->
+      <section class="controls" aria-label="뉴스 검색 및 필터">
+
+        <div class="search-wrap">
+          <label for="search-input" class="sr-only">뉴스 검색</label>
+          <input
+            id="search-input"
+            type="search"
+            class="search-input"
+            placeholder="뉴스 검색…"
+            autocomplete="off"
+            spellcheck="false"
+            aria-controls="news-grid"
+            aria-label="뉴스 검색"
+          >
+          <span class="search-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </div>
+
+        <div class="filter-wrap" role="group" aria-label="도구별 필터">
+          <button class="filter-btn active" data-tool="all" aria-pressed="true">전체</button>
+          <button class="filter-btn" data-tool="Cursor" aria-pressed="false">Cursor</button>
+          <button class="filter-btn" data-tool="Claude Code" aria-pressed="false">Claude Code</button>
+          <button class="filter-btn" data-tool="Gemini CLI" aria-pressed="false">Gemini CLI</button>
+          <button class="filter-btn" data-tool="Antigravity" aria-pressed="false">Antigravity</button>
+          <button class="filter-btn" data-tool="Cline" aria-pressed="false">Cline</button>
+        </div>
+      </section>
+
+      <!-- 결과 요약 -->
+      <div class="result-meta">
+        <p id="result-count" aria-live="polite" aria-atomic="true"></p>
+      </div>
+
+      <!-- 뉴스 카드 그리드 -->
+      <div
+        id="news-grid"
+        class="news-grid"
+        role="feed"
+        aria-label="뉴스 목록"
+        aria-busy="true"
+      ></div>
+
+      <!-- 빈 상태 -->
+      <div id="empty-state" class="empty-state" hidden>
+        <p class="empty-icon" aria-hidden="true">🔍</p>
+        <p class="empty-title">검색 결과가 없습니다</p>
+        <p class="empty-desc">다른 검색어나 필터를 시도해 보세요.</p>
+      </div>
+
+      <!-- 로딩 상태 -->
+      <div id="loading-state" class="loading-state" aria-hidden="true">
+        <p>뉴스를 불러오는 중…</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        데이터 출처: 각 도구의 공식 RSS 피드 &nbsp;·&nbsp;
+        <a href="https://github.com/whatwant-school/agent-news-hub" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </p>
+      <p id="last-updated" class="last-updated"></p>
+    </div>
+  </footer>
+
+  <!-- 뉴스 카드 템플릿 -->
+  <template id="card-template">
+    <article class="news-card" aria-label="">
+      <header class="card-header">
+        <span class="card-tool-badge"></span>
+        <time class="card-date" datetime=""></time>
+      </header>
+      <h2 class="card-title"></h2>
+      <p class="card-summary"></p>
+      <footer class="card-footer">
+        <span class="card-source"></span>
+        <a class="card-link" href="" target="_blank" rel="noopener noreferrer" aria-label="">
+          원문 보기
+          <svg class="link-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2 10L10 2M10 2H5M10 2V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </footer>
+    </article>
+  </template>
+
+  <script>
+    const TOOL_COLORS = {
+      'Cursor':     { bg: 'var(--tool-cursor-bg)',     text: 'var(--tool-cursor-text)' },
+      'Claude Code':{ bg: 'var(--tool-claude-bg)',     text: 'var(--tool-claude-text)' },
+      'Gemini CLI': { bg: 'var(--tool-gemini-bg)',     text: 'var(--tool-gemini-text)' },
+      'Antigravity':{ bg: 'var(--tool-antigravity-bg)',text: 'var(--tool-antigravity-text)' },
+      'Cline':      { bg: 'var(--tool-cline-bg)',      text: 'var(--tool-cline-text)' },
+    };
+
+    let allNews = [];
+    let activeFilter = 'all';
+    let searchQuery = '';
+
+    function formatDate(isoString) {
+      return new Intl.DateTimeFormat('ko-KR', {
+        year: 'numeric', month: 'long', day: 'numeric',
+      }).format(new Date(isoString));
+    }
+
+    function relativeDate(isoString) {
+      const diff = Date.now() - new Date(isoString).getTime();
+      const days = Math.floor(diff / 86400000);
+      if (days === 0) return '오늘';
+      if (days === 1) return '어제';
+      if (days < 7) return `${days}일 전`;
+      return formatDate(isoString);
+    }
+
+    function filtered() {
+      return allNews.filter(item => {
+        const matchTool = activeFilter === 'all' || item.tool === activeFilter;
+        const q = searchQuery.toLowerCase();
+        const matchSearch = !q
+          || item.title.toLowerCase().includes(q)
+          || (item.summary || '').toLowerCase().includes(q);
+        return matchTool && matchSearch;
+      });
+    }
+
+    function renderCards(items) {
+      const grid = document.getElementById('news-grid');
+      const empty = document.getElementById('empty-state');
+      const countEl = document.getElementById('result-count');
+      const template = document.getElementById('card-template');
+
+      grid.innerHTML = '';
+
+      if (items.length === 0) {
+        grid.hidden = true;
+        empty.hidden = false;
+        countEl.textContent = '';
+        return;
+      }
+
+      grid.hidden = false;
+      empty.hidden = true;
+      countEl.textContent = `${items.length.toLocaleString('ko-KR')}개의 뉴스`;
+
+      const fragment = document.createDocumentFragment();
+
+      items.forEach(item => {
+        const clone = template.content.cloneNode(true);
+        const card = clone.querySelector('.news-card');
+        const badge = clone.querySelector('.card-tool-badge');
+        const dateEl = clone.querySelector('.card-date');
+        const title = clone.querySelector('.card-title');
+        const summary = clone.querySelector('.card-summary');
+        const source = clone.querySelector('.card-source');
+        const link = clone.querySelector('.card-link');
+
+        card.setAttribute('aria-label', item.title);
+
+        const colors = TOOL_COLORS[item.tool] || {};
+        badge.textContent = item.tool;
+        badge.style.setProperty('--badge-bg', colors.bg || 'var(--color-surface-2)');
+        badge.style.setProperty('--badge-text', colors.text || 'var(--color-fg)');
+
+        dateEl.setAttribute('datetime', item.published_at);
+        dateEl.textContent = relativeDate(item.published_at);
+        dateEl.title = formatDate(item.published_at);
+
+        title.textContent = item.title;
+
+        if (item.summary) {
+          summary.textContent = item.summary;
+        } else {
+          summary.hidden = true;
+        }
+
+        source.textContent = item.source;
+
+        link.href = item.url;
+        link.setAttribute('aria-label', `${item.title} — 원문 보기 (새 탭)`);
+
+        fragment.appendChild(clone);
+      });
+
+      grid.appendChild(fragment);
+      grid.setAttribute('aria-busy', 'false');
+    }
+
+    async function loadNews() {
+      const loading = document.getElementById('loading-state');
+      const grid = document.getElementById('news-grid');
+      loading.hidden = false;
+      grid.setAttribute('aria-busy', 'true');
+
+      try {
+        const res = await fetch('data/news.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        allNews = await res.json();
+
+        // 마지막 업데이트 표시
+        if (allNews.length > 0) {
+          const lastEl = document.getElementById('last-updated');
+          lastEl.textContent = `마지막 업데이트: ${formatDate(allNews[0].published_at)}`;
+        }
+
+        renderCards(filtered());
+      } catch (e) {
+        grid.innerHTML = '<p class="error-msg">뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>';
+        grid.setAttribute('aria-busy', 'false');
+        console.error(e);
+      } finally {
+        loading.hidden = true;
+      }
+    }
+
+    // 필터 버튼
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+        activeFilter = btn.dataset.tool;
+        renderCards(filtered());
+      });
+    });
+
+    // 검색
+    let searchTimer;
+    document.getElementById('search-input').addEventListener('input', e => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        searchQuery = e.target.value.trim();
+        renderCards(filtered());
+      }, 200);
+    });
+
+    // URL 쿼리 파라미터 동기화
+    function applyUrlParams() {
+      const params = new URLSearchParams(location.search);
+      const tool = params.get('tool');
+      const q = params.get('q');
+
+      if (tool) {
+        const btn = document.querySelector(`.filter-btn[data-tool="${tool}"]`);
+        if (btn) {
+          document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-pressed', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-pressed', 'true');
+          activeFilter = tool;
+        }
+      }
+      if (q) {
+        document.getElementById('search-input').value = q;
+        searchQuery = q;
+      }
+    }
+
+    applyUrlParams();
+    loadNews();
+  </script>
+</body>
+</html>

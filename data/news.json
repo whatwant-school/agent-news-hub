@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "url": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+    "source": "Google Developers Blog",
+    "tool": "Antigravity",
+    "published_at": "2026-03-08T06:38:25.909724+00:00",
+    "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture."
+  },
+  {
+    "id": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
+    "title": "Conductor: Introducing context-driven development for Gemini CLI",
+    "url": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-08T06:38:25.090550+00:00",
+    "summary": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control."
+  },
+  {
+    "id": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+    "title": "Tailor Gemini CLI to your workflow with hooks",
+    "url": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-08T06:38:25.090526+00:00",
+    "summary": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow."
+  },
+  {
+    "id": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "url": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-08T06:38:25.090498+00:00",
+    "summary": "Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, updates, and resource management while users query data natively."
+  },
+  {
+    "id": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+    "title": "Making Gemini CLI extensions easier to use",
+    "url": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-08T06:38:25.090484+00:00",
+    "summary": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and securely stores sensitive information, such as API keys, directly in the system keychain. Users can now easily manage and override these configurations globally or per project using the new Gemini exte"
+  },
+  {
+    "id": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "url": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-08T06:38:25.090449+00:00",
+    "summary": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and "
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#219",
+    "title": "v2.1.9",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#219",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336434+00:00",
+    "summary": "Added `auto:N` syntax for configuring the MCP tool search auto-enable threshold, where N is the context window percentage (0-100)Added `plansDirectory` setting to customize where plan files are storedAdded external editor support (Ctrl+G) in AskUserQuestion \"Other\" input fieldAdded session URL attribution to commits and PRs created from web sessionsAdded support for `PreToolUse` hooks to return `additionalContext` to the modelAdded `${CLAUDE_SESSION_ID}` string substitution for skills to access "
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2110",
+    "title": "v2.1.10",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2110",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336427+00:00",
+    "summary": "Added new `Setup` hook event that can be triggered via `--init`, `--init-only`, or `--maintenance` CLI flags for repository setup and maintenance operationsAdded keyboard shortcut 'c' to copy OAuth URL when browser doesn't open automatically during loginFixed a crash when running bash commands containing heredocs with JavaScript template literals like `${index + 1}`Improved startup to capture keystrokes typed before the REPL is fully readyImproved file suggestions to show as removable attachment"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2111",
+    "title": "v2.1.11",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2111",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336421+00:00",
+    "summary": "Fixed excessive MCP connection requests for HTTP/SSE transports"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2112",
+    "title": "v2.1.12",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2112",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336415+00:00",
+    "summary": "Fixed message rendering bug"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2114",
+    "title": "v2.1.14",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2114",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336405+00:00",
+    "summary": "Added history-based autocomplete in bash mode (`!`) - type a partial command and press Tab to complete from your bash command historyAdded search to installed plugins list - type to filter by name or descriptionAdded support for pinning plugins to specific git commit SHAs, allowing marketplace entries to install exact versionsFixed a regression where the context window blocking limit was calculated too aggressively, blocking users at ~65% context usage instead of the intended ~98%Fixed memory is"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115",
+    "title": "v2.1.15",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336398+00:00",
+    "summary": "Added deprecation notification for npm installations - run `claude install` or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more optionsImproved UI rendering performance with React CompilerFixed the \"Context left until auto-compact\" warning not disappearing after running `/compact`Fixed MCP stdio server timeout not killing child process, which could cause UI freezes"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2116",
+    "title": "v2.1.16",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2116",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336390+00:00",
+    "summary": "Added new task management system, including new capabilities like dependency tracking[VSCode] Added native plugin management support[VSCode] Added ability for OAuth users to browse and resume remote Claude sessions from the Sessions dialogFixed out-of-memory crashes when resuming sessions with heavy subagent usageFixed an issue where the \"context remaining\" warning was not hidden after running `/compact`Fixed session titles on the resume screen not respecting the user's language setting[IDE] Fix"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2117",
+    "title": "v2.1.17",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2117",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336384+00:00",
+    "summary": "Fixed crashes on processors without AVX instruction support"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2118",
+    "title": "v2.1.18",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2118",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336378+00:00",
+    "summary": "Added customizable keyboard shortcuts. Configure keybindings per context, create chord sequences, and personalize your workflow. Run `/keybindings` to get started. Learn more at https://code.claude.com/docs/en/keybindings"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2119",
+    "title": "v2.1.19",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2119",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336368+00:00",
+    "summary": "Added env var `CLAUDE_CODE_ENABLE_TASKS`, set to `false` to keep the old system temporarilyAdded shorthand `$0`, `$1`, etc. for accessing individual arguments in custom commandsFixed crashes on processors without AVX instruction supportFixed dangling Claude Code processes when terminal is closed by catching EIO errors from `process.exit()` and using SIGKILL as fallbackFixed `/rename` and `/tag` not updating the correct session when resuming from a different directory (e.g., git worktrees)Fixed r"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2120",
+    "title": "v2.1.20",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2120",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336351+00:00",
+    "summary": "Added arrow key history navigation in vim normal mode when cursor cannot move furtherAdded external editor shortcut (Ctrl+G) to the help menu for better discoverabilityAdded PR review status indicator to the prompt footer, showing the current branch's PR state (approved, changes requested, pending, or draft) as a colored dot with a clickable linkAdded support for loading `CLAUDE.md` files from additional directories specified via `--add-dir` flag (requires setting `CLAUDE_CODE_ADDITIONAL_DIRECTO"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2121",
+    "title": "v2.1.21",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2121",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336341+00:00",
+    "summary": "Added support for full-width (zenkaku) number input from Japanese IME in option selection promptsFixed shell completion cache files being truncated on exitFixed API errors when resuming sessions that were interrupted during tool executionFixed auto-compact triggering too early on models with large output token limitsFixed task IDs potentially being reused after deletionFixed file search not working in VS Code extension on WindowsImproved read/search progress indicators to show \"Reading…\" while i"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2122",
+    "title": "v2.1.22",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2122",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336335+00:00",
+    "summary": "Fixed structured outputs for non-interactive (-p) mode"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2123",
+    "title": "v2.1.23",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2123",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336327+00:00",
+    "summary": "Added customizable spinner verbs setting (`spinnerVerbs`)Fixed mTLS and proxy connectivity for users behind corporate proxies or using client certificatesFixed per-user temp directory isolation to prevent permission conflicts on shared systemsFixed a race condition that could cause 400 errors when prompt caching scope was enabledFixed pending async hooks not being cancelled when headless streaming sessions endedFixed tab completion not updating the input field when accepting a suggestionFixed ri"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2125",
+    "title": "v2.1.25",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2125",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336321+00:00",
+    "summary": "Fixed beta header validation error for gateway users on Bedrock and Vertex, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the error"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2127",
+    "title": "v2.1.27",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2127",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336312+00:00",
+    "summary": "Added tool call failures and denials to debug logsFixed context management validation error for gateway users, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the errorAdded `--from-pr` flag to resume sessions linked to a specific GitHub PR number or URLSessions are now automatically linked to PRs when created via `gh pr create`Fixed /context command not displaying colored outputFixed status bar duplicating background task indicator when PR status was shownWindows: Fixed bash command "
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2129",
+    "title": "v2.1.29",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2129",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336306+00:00",
+    "summary": "Fixed startup performance issues when resuming sessions that have `saved_hook_context`"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2130",
+    "title": "v2.1.30",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2130",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336294+00:00",
+    "summary": "Added `pages` parameter to the Read tool for PDFs, allowing specific page ranges to be read (e.g., `pages: \"1-5\"`). Large PDFs (>10 pages) now return a lightweight reference when `@` mentioned instead of being inlined into context.Added pre-configured OAuth client credentials for MCP servers that don't support Dynamic Client Registration (e.g., Slack). Use `--client-id` and `--client-secret` with `claude mcp add`.Added `/debug` for Claude to help troubleshoot the current sessionAdded support for"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131",
+    "title": "v2.1.31",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336285+00:00",
+    "summary": "Added session resume hint on exit, showing how to continue your conversation laterAdded support for full-width (zenkaku) space input from Japanese IME in checkbox selectionFixed PDF too large errors permanently locking up sessions, requiring users to start a new conversationFixed bash commands incorrectly reporting failure with \"Read-only file system\" errors when sandbox mode was enabledFixed a crash that made sessions unusable after entering plan mode when project config in `~/.claude.json` was"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132",
+    "title": "v2.1.32",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336274+00:00",
+    "summary": "Claude Opus 4.6 is now available!Added research preview agent teams feature for multi-agent collaboration (token-intensive feature, requires setting CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1)Claude now automatically records and recalls memories as it worksAdded \"Summarize from here\" to the message selector, allowing partial conversation summarization.Skills defined in `.claude/skills/` within additional directories (`--add-dir`) are now loaded automatically.Fixed `@` file completion showing incorre"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133",
+    "title": "v2.1.33",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336261+00:00",
+    "summary": "Fixed agent teammate sessions in tmux to send and receive messagesFixed warnings about agent teams not being available on your current planAdded `TeammateIdle` and `TaskCompleted` hook events for multi-agent workflowsAdded support for restricting which sub-agents can be spawned via `Task(agent_type)` syntax in agent \"tools\" frontmatterAdded `memory` frontmatter field support for agents, enabling persistent memory with `user`, `project`, or `local` scopeAdded plugin name to skill descriptions and"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2134",
+    "title": "v2.1.34",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2134",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336254+00:00",
+    "summary": "Fixed a crash when agent teams setting changed between rendersFixed a bug where commands excluded from sandboxing (via `sandbox.excludedCommands` or `dangerouslyDisableSandbox`) could bypass the Bash ask permission rule when `autoAllowBashIfSandboxed` was enabled"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2136",
+    "title": "v2.1.36",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2136",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336249+00:00",
+    "summary": "Fast mode is now available for Opus 4.6. Learn more at https://code.claude.com/docs/en/fast-mode"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137",
+    "title": "v2.1.37",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336243+00:00",
+    "summary": "Fixed an issue where /fast was not immediately available after enabling /extra-usage"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138",
+    "title": "v2.1.38",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336235+00:00",
+    "summary": "Fixed VS Code terminal scroll-to-top regression introduced in 2.1.37Fixed Tab key queueing slash commands instead of autocompletingFixed bash permission matching for commands using environment variable wrappersFixed text between tool uses disappearing when not using streamingFixed duplicate sessions when resuming in VS Code extensionImproved heredoc delimiter parsing to prevent command smugglingBlocked writes to `.claude/skills` directory in sandbox mode"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139",
+    "title": "v2.1.39",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336228+00:00",
+    "summary": "Improved terminal rendering performanceFixed fatal errors being swallowed instead of displayedFixed process hanging after session closeFixed character loss at terminal screen boundaryFixed blank lines in verbose transcript view"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2141",
+    "title": "v2.1.41",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2141",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336216+00:00",
+    "summary": "Added guard against launching Claude Code inside another Claude Code sessionFixed Agent Teams using wrong model identifier for Bedrock, Vertex, and Foundry customersFixed a crash when MCP tools return image content during streamingFixed /resume session previews showing raw XML tags instead of readable command namesImproved model error messages for Bedrock/Vertex/Foundry users with fallback suggestionsFixed plugin browse showing misleading \"Space to Toggle\" hint for already-installed pluginsFixed"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2142",
+    "title": "v2.1.42",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2142",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336209+00:00",
+    "summary": "Improved startup performance by deferring Zod schema constructionImproved prompt cache hit rates by moving date out of system promptAdded one-time Opus 4.6 effort callout for eligible usersFixed /resume showing interrupt messages as session titlesFixed image dimension limit errors to suggest /compact"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2143",
+    "title": "v2.1.43",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2143",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336202+00:00",
+    "summary": "Fixed AWS auth refresh hanging indefinitely by adding a 3-minute timeoutFixed spurious warnings for non-agent markdown files in `.claude/agents/` directoryFixed structured-outputs beta header being sent unconditionally on Vertex/Bedrock"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144",
+    "title": "v2.1.44",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336193+00:00",
+    "summary": "Fixed ENAMETOOLONG errors for deeply-nested directory pathsFixed auth refresh errors"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2145",
+    "title": "v2.1.45",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2145",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336180+00:00",
+    "summary": "Added support for Claude Sonnet 4.6Added support for reading `enabledPlugins` and `extraKnownMarketplaces` from `--add-dir` directoriesAdded `spinnerTipsOverride` setting to customize spinner tips — configure `tips` with an array of custom tip strings, and optionally set `excludeDefault: true` to show only your custom tips instead of the built-in onesAdded `SDKRateLimitInfo` and `SDKRateLimitEvent` types to the SDK, enabling consumers to receive rate limit status updates including utilization, r"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2146",
+    "title": "v2.1.46",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2146",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336172+00:00",
+    "summary": "Fixed orphaned CC processes after terminal disconnect on macOSAdded support for using claude.ai MCP connectors in Claude Code"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2147",
+    "title": "v2.1.47",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2147",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336137+00:00",
+    "summary": "Fixed FileWriteTool line counting to preserve intentional trailing blank lines instead of stripping them with `trimEnd()`.Fixed Windows terminal rendering bugs caused by `os.EOL` (`\\r\\n`) in display code — line counts now show correct values instead of always showing 1 on Windows.Improved VS Code plan preview: auto-updates as Claude iterates, enables commenting only when the plan is ready for review, and keeps the preview open when rejecting so Claude can revise.Fixed a bug where bold and colore"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2149",
+    "title": "v2.1.49",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2149",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336118+00:00",
+    "summary": "Improved MCP OAuth authentication with step-up auth support and discovery caching, reducing redundant network requests during server connectionsAdded `--worktree` (`-w`) flag to start Claude in an isolated git worktreeSubagents support `isolation: \"worktree\"` for working in a temporary git worktreeAdded Ctrl+F keybinding to kill background agents (two-press confirmation)Agent definitions support `background: true` to always run as a background taskPlugins can ship `settings.json` for default con"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2150",
+    "title": "v2.1.50",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2150",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336105+00:00",
+    "summary": "Added support for `startupTimeout` configuration for LSP serversAdded `WorktreeCreate` and `WorktreeRemove` hook events, enabling custom VCS setup and teardown when agent worktree isolation creates or removes worktrees.Fixed a bug where resumed sessions could be invisible when the working directory involved symlinks, because the session storage path was resolved at different times during startup. Also fixed session data loss on SSH disconnect by flushing session data before hooks and analytics i"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2151",
+    "title": "v2.1.51",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2151",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336095+00:00",
+    "summary": "Added `claude remote-control` subcommand for external builds, enabling local environment serving for all users.Updated plugin marketplace default git timeout from 30s to 120s and added `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS` to configure.Added support for custom npm registries and specific version pinning when installing plugins from npm sourcesBashTool now skips login shell (`-l` flag) by default when a shell snapshot is available, improving command execution performance. Previously this required s"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2152",
+    "title": "v2.1.52",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2152",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336089+00:00",
+    "summary": "VS Code: Fixed extension crash on Windows (\"command 'claude-vscode.editor.openLast' not found\")"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2153",
+    "title": "v2.1.53",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2153",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336081+00:00",
+    "summary": "Fixed a UI flicker where user input would briefly disappear after submission before the message renderedFixed bulk agent kill (ctrl+f) to send a single aggregate notification instead of one per agent, and to properly clear the command queueFixed graceful shutdown sometimes leaving stale sessions when using Remote Control by parallelizing teardown network callsFixed `--worktree` sometimes being ignored on first launchFixed a panic (\"switch on corrupted value\") on WindowsFixed a crash that could o"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2155",
+    "title": "v2.1.55",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2155",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336074+00:00",
+    "summary": "Fixed BashTool failing on Windows with EINVAL error"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2156",
+    "title": "v2.1.56",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2156",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336068+00:00",
+    "summary": "VS Code: Fixed another cause of \"command 'claude-vscode.editor.openLast' not found\" crashes"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2158",
+    "title": "v2.1.58",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2158",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336062+00:00",
+    "summary": "Expand Remote Control to more users"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2159",
+    "title": "v2.1.59",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2159",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336053+00:00",
+    "summary": "Claude automatically saves useful context to auto-memory. Manage with /memoryAdded `/copy` command to show an interactive picker when code blocks are present, allowing selection of individual code blocks or the full response.Improved \"always allow\" prefix suggestions for compound bash commands (e.g. `cd /tmp && git fetch && git push`) to compute smarter per-subcommand prefixes instead of treating the whole command as oneImproved ordering of short task listsImproved memory usage in multi-agent se"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2161",
+    "title": "v2.1.61",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2161",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336046+00:00",
+    "summary": "Fixed concurrent writes corrupting config file on Windows"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2162",
+    "title": "v2.1.62",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2162",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336040+00:00",
+    "summary": "Fixed prompt suggestion cache regression that reduced cache hit rates"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2163",
+    "title": "v2.1.63",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2163",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336024+00:00",
+    "summary": "Added `/simplify` and `/batch` bundled slash commandsFixed local slash command output like /cost appearing as user-sent messages instead of system messages in the UIProject configs & auto memory now shared across git worktrees of the same repositoryAdded `ENABLE_CLAUDEAI_MCP_SERVERS=false` env var to opt out from making claude.ai MCP servers availableImproved `/model` command to show the currently active model in the slash command menuAdded HTTP hooks, which can POST JSON to a URL and receive JS"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2166",
+    "title": "v2.1.66",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2166",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336017+00:00",
+    "summary": "Reduced spurious error logging"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2168",
+    "title": "v2.1.68",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2168",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.336009+00:00",
+    "summary": "Opus 4.6 now defaults to medium effort for Max and Team subscribers. Medium effort works well for most tasks — it's the sweet spot between speed and thoroughness. You can change this anytime with `/model`Re-introduced the \"ultrathink\" keyword to enable high effort for the next turnRemoved Opus 4 and 4.1 from Claude Code on the first-party API — users with these models pinned are automatically moved to Opus 4.6"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2169",
+    "title": "v2.1.69",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2169",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.335952+00:00",
+    "summary": "Added the `/claude-api` skill for building applications with the Claude API and Anthropic SDKAdded Ctrl+U on an empty bash prompt (`!`) to exit bash mode, matching `escape` and `backspace`Added numeric keypad support for selecting options in Claude's interview questions (previously only the number row above QWERTY worked)Added optional name argument to `/remote-control` and `claude remote-control` (`/remote-control My Project` or `--name \"My Project\"`) to set a custom session title visible in cl"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2170",
+    "title": "v2.1.70",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2170",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.335931+00:00",
+    "summary": "Fixed API 400 errors when using `ANTHROPIC_BASE_URL` with a third-party gateway — tool search now correctly detects proxy endpoints and disables `tool_reference` blocksFixed `API Error: 400 This model does not support the effort parameter` when using custom Bedrock inference profiles or other model identifiers not matching standard Claude naming patternsFixed empty model responses immediately after `ToolSearch` — the server renders tool schemas with system-prompt-style tags at the prompt tail, w"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2171",
+    "title": "v2.1.71",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2171",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-08T06:38:24.335894+00:00",
+    "summary": "Added `/loop` command to run a prompt or slash command on a recurring interval (e.g. `/loop 5m check the deploy`)Added cron scheduling tools for recurring prompts within a sessionAdded `voice:pushToTalk` keybinding to make the voice activation key rebindable in `keybindings.json` (default: space) — modifier+letter combos like `meta+k` have zero typing interferenceAdded `fmt`, `comm`, `cmp`, `numfmt`, `expr`, `test`, `printf`, `getconf`, `seq`, `tsort`, and `pr` to the bash auto-approval allowlis"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260307.6c3a90645",
+    "title": "Release v0.34.0-nightly.20260307.6c3a90645",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260307.6c3a90645",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-07T02:00:02+00:00",
+    "summary": "What's Changed\n\nChangelog for v0.33.0-preview.2 by @gemini-cli-robot in #21333\nChangelog for v0.33.0-preview.3 by @gemini-cli-robot in #21347\ndocs: format release times as HH:MM UTC by @pavan-sh in #20726\nfix(cli): implement --all flag for extensions uninstall by @sehoon38 in #21319\ndocs: fix incorrect relative links to command reference by @kanywst in #20964\ndocumentiong ensures ripgrep by @Jatin24062005 in #21298\nfix(core): handle AbortError thrown during processTurn by @MumuTW in #21296\ndocs("
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.5",
+    "title": "Release v0.33.0-preview.5",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.5",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-07T01:40:11+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 931e668 to release/v0.33.0-preview.4-pr-21425 [CONFLICTS] by @gemini-cli-robot in #21478\n\nFull Changelog: v0.33.0-preview.4...v0.33.0-preview.5"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.71",
+    "title": "v2.1.71",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.71",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-07T00:12:46+00:00",
+    "summary": "What's changed\n\nAdded /loop command to run a prompt or slash command on a recurring interval (e.g. /loop 5m check the deploy)\nAdded cron scheduling tools for recurring prompts within a session\nAdded voice:pushToTalk keybinding to make the voice activation key rebindable in keybindings.json (default: space) — modifier+letter combos like meta+k have zero typing interference\nAdded fmt, comm, cmp, numfmt, expr, test, printf, getconf, seq, tsort, and pr to the bash auto-approval allowlist\nFixed stdin"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.71.0",
+    "title": "v3.71.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.71.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-06T18:32:27+00:00",
+    "summary": "Added\n\nAdded GPT-5.4 models for ChatGPT subscription users\nHooks: Added a Notification hook for attention and completion boundaries\n\nFixed\n\nHandle streamable HTTP MCP reconnects more reliably after disconnects\n\nFull Changelog: v2.6.0-cli...v3.71.0"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v2.6.1-cli",
+    "title": "v2.6.1-cli: release changelog and version bump (#9706)",
+    "url": "https://github.com/cline/cline/releases/tag/v2.6.1-cli",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-06T17:45:20+00:00",
+    "summary": "Co-authored-by: Max Paulus 🥪 max@cline.bot"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260306.a8f507352",
+    "title": "Release v0.34.0-nightly.20260306.a8f507352",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260306.a8f507352",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-06T03:25:16+00:00",
+    "summary": "What's Changed\n\nfix(cli): defer tool exclusions to policy engine in non-interactive mode by @EricRahm in #20639\nfix(ui): removed double padding on rendered content by @devr0306 in #21029\nfix(core): truncate excessively long lines in grep search output by @gundermanc in #21147\nfeat: add custom footer configuration via /footer by @jackwotherspoon in #19001\nperf(core): fix OOM crash in long-running sessions by @WizardsForgeGames in #19608\nrefactor(cli): categorize built-in themes into dark/ and lig"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.4",
+    "title": "Release v0.33.0-preview.4",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.4",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-06T01:28:36+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 7ec477d to release/v0.33.0-preview.3-pr-21305 to patch version v0.33.0-preview.3 and create version 0.33.0-preview.4 by @gemini-cli-robot in #21349\n\nFull Changelog: v0.33.0-preview.3...v0.33.0-preview.4"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.70",
+    "title": "v2.1.70",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.70",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-06T01:20:02+00:00",
+    "summary": "What's changed\n\nFixed API 400 errors when using ANTHROPIC_BASE_URL with a third-party gateway — tool search now correctly detects proxy endpoints and disables tool_reference blocks\nFixed API Error: 400 This model does not support the effort parameter when using custom Bedrock inference profiles or other model identifiers not matching standard Claude naming patterns\nFixed empty model responses immediately after ToolSearch — the server renders tool schemas with system-prompt-style tags at the prom"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.3",
+    "title": "Release v0.33.0-preview.3",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.3",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-06T00:03:28+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 0135b03 to release/v0.33.0-preview.2-pr-21171 [CONFLICTS] by @gemini-cli-robot in #21336\n\nFull Changelog: v0.33.0-preview.2...v0.33.0-preview.3"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.2",
+    "title": "Release v0.33.0-preview.2",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.2",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-05T22:17:51+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 173376b to release/v0.33.0-preview.1-pr-21157 to patch version v0.33.0-preview.1 and create version 0.33.0-preview.2 by @gemini-cli-robot in #21300\n\nFull Changelog: v0.33.0-preview.1...v0.33.0-preview.2"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260305.348103298",
+    "title": "Release v0.34.0-nightly.20260305.348103298",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260305.348103298",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-05T01:11:57+00:00",
+    "summary": "What's Changed\n\nAdd extra safety checks for proto pollution by @jacob314 in #20396\nfeat(core): Add tracker CRUD tools &amp; visualization by @anj-s in #19489\nRevert \"fix(ui): persist expansion in AskUser dialog when navigating options\" by @jacob314 in #21042\nChangelog for v0.33.0-preview.0 by @gemini-cli-robot in #21030\nfix: model persistence for all scenarios by @sripasg in #21051\nchore/release: bump version to 0.34.0-nightly.20260304.28af4e127 by @gemini-cli-robot in #21054\nConsistently guard "
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.69",
+    "title": "v2.1.69",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.69",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-05T00:26:21+00:00",
+    "summary": "What's changed\n\nAdded the /claude-api skill for building applications with the Claude API and Anthropic SDK\nAdded Ctrl+U on an empty bash prompt (!) to exit bash mode, matching escape and backspace\nAdded numeric keypad support for selecting options in Claude's interview questions (previously only the number row above QWERTY worked)\nAdded optional name argument to /remote-control and claude remote-control (/remote-control My Project or --name \"My Project\") to set a custom session title visible in"
+  },
+  {
+    "id": "https://cursor.com/changelog/03-05-26",
+    "title": "Automations",
+    "url": "https://cursor.com/changelog/03-05-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-03-05T00:00:00+00:00",
+    "summary": "Cursor now supports automations for building always-on agents that run based on triggers and instructions you define."
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.70.0",
+    "title": "v3.70.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.70.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-04T22:07:37+00:00",
+    "summary": "Added\n\nNew Cline API docs: Getting Started, Auth, Chat Completions, Models, Errors, and SDK Examples\nHook payloads now include model.provider and model.slug\nToken/cost updates now happen immediately as usage chunks arrive, not after tool execution\n\nFixed\n\nImprove subagent context compaction logic\nSubagent stream retry delay increased to reduce noise from transient failures\nState serialization errors are now caught and logged instead of crashing\nRemoved incorrect max_tokens from OpenRouter reques"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v2.6.0-cli",
+    "title": "v2.6.0-cli: update changelog and bump version numbers (#9664)",
+    "url": "https://github.com/cline/cline/releases/tag/v2.6.0-cli",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-04T21:39:15+00:00",
+    "summary": "Co-authored-by: Max Paulus 🥪 max@cline.bot"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.68",
+    "title": "v2.1.68",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.68",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-04T10:11:14+00:00",
+    "summary": "What's changed\n\nOpus 4.6 now defaults to medium effort for Max and Team subscribers. Medium effort works well for most tasks — it's the sweet spot between speed and thoroughness. You can change this anytime with /model\nRe-introduced the \"ultrathink\" keyword to enable high effort for the next turn\nRemoved Opus 4 and 4.1 from Claude Code on the first-party API — users with these models pinned are automatically moved to Opus 4.6"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.1",
+    "title": "Release v0.33.0-preview.1",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.1",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-04T04:20:14+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 0659ad1 to release/v0.33.0-preview.0-pr-21042 to patch version v0.33.0-preview.0 and create version 0.33.0-preview.1 by @gemini-cli-robot in #21047\n\nFull Changelog: v0.33.0-preview.0...v0.33.0-preview.1"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260304.28af4e127",
+    "title": "Release v0.34.0-nightly.20260304.28af4e127",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260304.28af4e127",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-04T03:48:36+00:00",
+    "summary": "What's Changed\n\nchore/release: bump version to 0.33.0-nightly.20260228.1ca5c05d0 by @gemini-cli-robot in #20644\nChangelog for v0.31.0 by @gemini-cli-robot in #20634\nfix: use full paths for ACP diff payloads by @JagjeevanAK in #19539\nChangelog for v0.32.0-preview.0 by @gemini-cli-robot in #20627\nfix: acp/zed race condition between MCP initialisation and prompt by @kartikangiras in #20205\nfix(cli): reset themeManager between tests to ensure isolation by @NTaylorMullen in #20598\nrefactor(core): Ext"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.32.1",
+    "title": "Release v0.32.1",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.32.1",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-04T03:46:12+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 0659ad1 to release/v0.32.0-pr-21042 to patch version v0.32.0 and create version 0.32.1 by @gemini-cli-robot in #21048\n\nFull Changelog: v0.32.0...v0.32.1"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.66",
+    "title": "v2.1.66",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.66",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-04T01:19:19+00:00",
+    "summary": "No content."
+  },
+  {
+    "id": "https://cursor.com/changelog/03-04-26",
+    "title": "Cursor in JetBrains IDEs",
+    "url": "https://cursor.com/changelog/03-04-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-03-04T00:00:00+00:00",
+    "summary": "Cursor is now available in IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs through the Agent Client Protocol (ACP)."
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.69.0",
+    "title": "v3.69.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.69.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-03T00:25:13+00:00",
+    "summary": "Added\n\nAdd User-Agent header to requests sent to the Cline backend\nAdd default auto-tag workflow for publish release flow\nShow Cline SDK docs on the Cline page\n\nFixed\n\nRetry nested git restore and prevent silent .git_disabled leftovers in checkpoints\nPrevent Chinese filename escaping in diff view\nTrigger auto-compaction on OpenRouter context overflow errors\nRestore GPT-OSS native file editing on OpenAI-compatible models\n\nChanged\n\nUpdate Cline SDK docs\nImprove hooks support for Windows PowerShell"
+  },
+  {
+    "id": "https://cursor.com/changelog/2-6",
+    "title": "MCP Apps and Team Marketplaces for Plugins",
+    "url": "https://cursor.com/changelog/2-6",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-03-03T00:00:00+00:00",
+    "summary": "This release introduces interactive UIs in agent chats, a way for teams to share private plugins, and improvements to core capabilities like Debug mode."
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v2.5.2-cli",
+    "title": "v2.5.2-cli: Release: version bump and changelog updates (#9640)",
+    "url": "https://github.com/cline/cline/releases/tag/v2.5.2-cli",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-02T23:53:06+00:00",
+    "summary": "Update changelog for release\n\n\nVersion bump the package*.json files for release"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.63",
+    "title": "v2.1.63",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.63",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-02-28T03:45:37+00:00",
+    "summary": "What's changed\n\nAdded /simplify and /batch bundled slash commands\nFixed local slash command output like /cost appearing as user-sent messages instead of system messages in the UI\nProject configs &amp; auto memory now shared across git worktrees of the same repository\nAdded ENABLE_CLAUDEAI_MCP_SERVERS=false env var to opt out from making claude.ai MCP servers available\nImproved /model command to show the currently active model in the slash command menu\nAdded HTTP hooks, which can POST JSON to a U"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.62",
+    "title": "v2.1.62",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.62",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-02-27T01:56:19+00:00",
+    "summary": "What's changed\n\nFixed prompt suggestion cache regression that reduced cache hit rates"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.68.0",
+    "title": "v3.68.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.68.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-02-27T00:23:36+00:00",
+    "summary": "Added\n\nAdd dynamic Cline provider model fetching from Cline endpoint\nAdd additional Markdown formatting in CLI\nAdd focus indicator on action buttons in extension\n\nFixed\n\nClear all OCA secrets on auth refresh failure to prevent re-auth loops\nResolve \"Could not find the file context\" error in Explain Changes\nUse JSON_SCHEMA for yaml.load to prevent unsafe deserialization\nFetch model info from API in CLI headless auth for Cline and Vercel providers\nGenerate commit message from staged changes only w"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v2.5.1-cli",
+    "title": "v2.5.1-cli",
+    "url": "https://github.com/cline/cline/releases/tag/v2.5.1-cli",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-02-26T23:57:14+00:00",
+    "summary": "Version bump and changelog for release (#9577)"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.61",
+    "title": "v2.1.61",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.61",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-02-26T22:34:32+00:00",
+    "summary": "What's changed\n\nFixed concurrent writes corrupting config file on Windows"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.59",
+    "title": "v2.1.59",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.59",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-02-26T00:59:24+00:00",
+    "summary": "What's changed\n\nClaude automatically saves useful context to auto-memory. Manage with /memory\nAdded /copy command to show an interactive picker when code blocks are present, allowing selection of individual code blocks or the full response.\nImproved \"always allow\" prefix suggestions for compound bash commands (e.g. cd /tmp &amp;&amp; git fetch &amp;&amp; git push) to compute smarter per-subcommand prefixes instead of treating the whole command as one\nImproved ordering of short task lists\nImprove"
+  },
+  {
+    "id": "https://cursor.com/changelog/02-26-26",
+    "title": "Bugbot Autofix",
+    "url": "https://cursor.com/changelog/02-26-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-02-26T00:00:00+00:00",
+    "summary": "Bugbot can automatically fix issues it finds in pull requests."
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.58",
+    "title": "v2.1.58",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.58",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-02-25T20:00:11+00:00",
+    "summary": "What's changed\n\nExpand Remote Control to more users"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.67.1",
+    "title": "v3.67.1",
+    "url": "https://github.com/cline/cline/releases/tag/v3.67.1",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-02-24T22:33:38+00:00",
+    "summary": "Added\n\nAdded Cline SDK API interface for programmatic access to Cline features and tools, enabling integration into custom applications.\nAdded Codex 5.3 model support\n\nFixed\n\nFix OpenAI Codex by setting store to false\nUse isLocatedInPath() instead of string matching for path containment checks\n\nFull Changelog: v2.4.3-cli...v3.67.1"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.67.0",
+    "title": "v3.67.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.67.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-02-24T02:22:29+00:00",
+    "summary": "Added\n\nAdd support for skills and optional modelId in subagent configuration\nAdd AgentConfigLoader for file-based agent configs\nAdd Responses API support for OpenAI native provider\nPreconnect websocket to reduce response latency\nFetch featured models from backend with local fallback\nAdd /q command to quit CLI\nAdd MCP enterprise configuration details\nPull Cline's recommended models from internal endpoint\nAdd dynamic flag to adjust banner cache duration\n\nFixed\n\nFix reasoning delta crash on usage-o"
+  },
+  {
+    "id": "https://cursor.com/changelog/02-24-26",
+    "title": "Cloud Agents with Computer Use",
+    "url": "https://cursor.com/changelog/02-24-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-02-24T00:00:00+00:00",
+    "summary": "Cloud agents can now use the software they create to test changes and demo their work."
+  },
+  {
+    "id": "https://cursor.com/changelog/cli-feb-18-2026",
+    "title": "CLI Improvements and Mermaid ASCII Diagrams",
+    "url": "https://cursor.com/changelog/cli-feb-18-2026",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-02-18T00:00:00+00:00",
+    "summary": "This release introduces the ability to hand off plans from the CLI to the cloud, in-line rendering of ASCII diagrams, and many quality-of-life improvements."
+  },
+  {
+    "id": "https://cursor.com/changelog/2-5",
+    "title": "Plugins, Sandbox Access Controls, and Async Subagents",
+    "url": "https://cursor.com/changelog/2-5",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-02-17T00:00:00+00:00",
+    "summary": "This release introduces plugins for extending Cursor, improvements to core agent capabilities like subagents, and fine-grained network controls for sandboxed commands."
+  },
+  {
+    "id": "https://cursor.com/changelog/02-12-26",
+    "title": "Long-running Agents in Research Preview",
+    "url": "https://cursor.com/changelog/02-12-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-02-12T00:00:00+00:00",
+    "summary": "Cursor can now work autonomously over longer horizons to complete larger, more complex tasks. Long-running agents plan first and finish more difficult work without human intervention."
+  },
+  {
+    "id": "https://cursor.com/changelog/2-4",
+    "title": "Subagents, Skills, and Image Generation",
+    "url": "https://cursor.com/changelog/2-4",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-01-22T00:00:00+00:00",
+    "summary": "Agents are solving increasingly complex, long-running tasks across your codebase. This release introduces new agent harness improvements for better context management, as well as many quality-of-life fixes in the editor and CLI."
+  },
+  {
+    "id": "https://cursor.com/changelog/cli-jan-16-2026",
+    "title": "CLI Agent Modes and Cloud Handoff",
+    "url": "https://cursor.com/changelog/cli-jan-16-2026",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-01-16T00:00:00+00:00",
+    "summary": "This release brings many of the editor’s most-loved features to the Cursor CLI , along with improvements that make it easier to use."
+  },
+  {
+    "id": "https://cursor.com/changelog/cli-jan-08-2026",
+    "title": "New CLI Features and Improved CLI Performance",
+    "url": "https://cursor.com/changelog/cli-jan-08-2026",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-01-08T00:00:00+00:00",
+    "summary": "This release introduces new CLI controls for models, MCP management, rules and commands, alongside major hooks performance improvements and bug fixes."
+  },
+  {
+    "id": "https://cursor.com/changelog/2-3",
+    "title": "Layout Customization and Stability Improvements",
+    "url": "https://cursor.com/changelog/2-3",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-12-22T00:00:00+00:00",
+    "summary": "For this holiday release, we've focused entirely on fixing bugs and improving stability."
+  },
+  {
+    "id": "https://cursor.com/changelog/enterprise-dec-2025",
+    "title": "Enterprise Insights, Billing Groups, Service Accounts, and Improved Security Controls",
+    "url": "https://cursor.com/changelog/enterprise-dec-2025",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-12-18T00:00:00+00:00",
+    "summary": "Many of the largest software companies in the world have adopted Cursor for Enterprise . Here are some of the new features we're releasing today:"
+  },
+  {
+    "id": "https://cursor.com/changelog/2-2",
+    "title": "Debug Mode, Plan Mode Improvements, Multi-Agent Judging, and Pinned Chats",
+    "url": "https://cursor.com/changelog/2-2",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-12-10T00:00:00+00:00",
+    "summary": "Debug Mode helps you reproduce and fix the most tricky bugs."
+  },
+  {
+    "id": "https://cursor.com/changelog/2-1",
+    "title": "Improved Plan Mode, AI Code Review in Editor, and Instant Grep",
+    "url": "https://cursor.com/changelog/2-1",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-11-21T19:37:20+00:00",
+    "summary": "When creating plans, Cursor responds with clarifying questions to improve the plan quality. Cursor now shows an interactive UI to easily answer questions."
+  },
+  {
+    "id": "https://cursor.com/changelog/2-0",
+    "title": "New Coding Model and Agent Interface",
+    "url": "https://cursor.com/changelog/2-0",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-10-29T05:08:00+00:00",
+    "summary": "Manage agents in our new editor, with a sidebar for your agents and plans."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-7",
+    "title": "Browser Controls, Plan Mode, and Hooks",
+    "url": "https://cursor.com/changelog/1-7",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-09-29T05:08:58+00:00",
+    "summary": "Agent can take screenshots, improve UI, and debug client issues. Read more about browser capabilities."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-6",
+    "title": "Slash commands, summarization, and improved Agent terminal",
+    "url": "https://cursor.com/changelog/1-6",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-09-12T01:25:00+00:00",
+    "summary": "You can now create reusable prompts and quickly share them with your team. Commands are stored in `.cursor/commands/[command].md`. Run them by typing `/` in the Agent input and selecting the command from the dropdown menu."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-5",
+    "title": "Linear integration, improved Agent terminal, and OS notifications",
+    "url": "https://cursor.com/changelog/1-5",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-08-21T19:54:00+00:00",
+    "summary": "You can now start Background Agents directly from Linear. Delegate tasks to Cursor without leaving your issue. We've written a longer blog post with more details."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-4",
+    "title": "Improved Agent tools, steerability, and usage visibility",
+    "url": "https://cursor.com/changelog/1-4",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-08-06T19:44:00+00:00",
+    "summary": "Sending messages while Cursor is working now does a better job of steering the agent. Messages will run at the next ideal time, usually after a tool call, versus waiting until the generation completes. ⌥+Enter (Alt+Enter on Windows) will queue messages like before and ⌘+Enter (Ctrl+Enter on Windows) will interrupt t..."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-3",
+    "title": "Shared terminal with Agent, context usage in chat, and faster edits",
+    "url": "https://cursor.com/changelog/1-3",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-07-29T19:38:00+00:00",
+    "summary": "Agents can now use your native terminal. A new terminal will be created when needed and runs in the background if one isn't already open. Click Focus to bring it up front where you can see Agent commands and also take over."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-2",
+    "title": "Agent Planning, Better Context & Faster Tab",
+    "url": "https://cursor.com/changelog/1-2",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-07-03T15:16:00+00:00",
+    "summary": "Agents now plan ahead with structured to-do lists, making long-horizon tasks easier to understand and track."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-1",
+    "title": "Background Agents in Slack",
+    "url": "https://cursor.com/changelog/1-1",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-06-12T15:27:00+00:00",
+    "summary": "You can now launch Background Agents directly from Slack by mentioning **@Cursor**. Agents can read the thread, understand what's going on, and create PRs in GitHub, all without leaving the conversation."
+  },
+  {
+    "id": "https://cursor.com/changelog/1-0",
+    "title": "Bugbot, Background Agent access to everyone, and one-click MCP install",
+    "url": "https://cursor.com/changelog/1-0",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-06-04T15:32:00+00:00",
+    "summary": "Cursor 1.0 is here!"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-50",
+    "title": "Simplified Pricing, Background Agent and Refreshed Inline Edit",
+    "url": "https://cursor.com/changelog/0-50",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-05-15T16:13:00+00:00",
+    "summary": "Introducing unified request-based pricing, Max Mode for all top models, and Background Agent for parallel task execution. Plus, improved context management with `@folders` support, refreshed Inline Edit with new options, faster file edits, multi-root workspace support, and enhanced chat features including export and..."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-49",
+    "title": "Rules generation, improved agent terminal and MCP images",
+    "url": "https://cursor.com/changelog/0-49",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-04-15T16:29:00+00:00",
+    "summary": "You can now generate rules directly from a conversation using the `/Generate Cursor Rules` command. This is useful when you want to capture the existing context of a conversation to reuse later."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-48-x",
+    "title": "Chat tabs, Custom modes & Faster indexing",
+    "url": "https://cursor.com/changelog/0-48-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-03-23T15:06:00+00:00",
+    "summary": "Other (6)"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-47-x",
+    "title": "Reliability, Keyboard Shortcuts & Early access opt-in",
+    "url": "https://cursor.com/changelog/0-47-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-03-11T09:00:00+00:00",
+    "summary": "Patches (11)"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-46-x",
+    "title": "Agent is ready and UI refresh",
+    "url": "https://cursor.com/changelog/0-46-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-02-19T10:35:00+00:00",
+    "summary": "Fixes (3)"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-45-x",
+    "title": ".cursor/rules, Better Codebase Understanding, New Tab Model",
+    "url": "https://cursor.com/changelog/0-45-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2025-01-23T10:35:00+00:00",
+    "summary": "UPDATE (0.45.1-0.45.11): Fixes issue with older agent conversations, indexing stability, downloading incorrect extension versions, missing package on windows, crash on opening long composer sessions, latency on pasting code."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-44-x",
+    "title": "Agent Improvements, Yolo Mode, Cursor Tab Update",
+    "url": "https://cursor.com/changelog/0-44-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-12-17T10:35:00+00:00",
+    "summary": "UPDATE (0.44.1–0.44.11): Fixes and improvements to dev containers, chat codeblocks on windows, and the agent. Decreases Cursor Tab Latency on Remote SSH. Fixes bug that prematurely triggered the free trial ended popup. Better observability for errors and crashes."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-43-x",
+    "title": "New Composer UI, Agent, Commit Messages",
+    "url": "https://cursor.com/changelog/0-43-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-11-24T10:35:00+00:00",
+    "summary": "Composer UI in the sidebar with inline diffs Early version of an agent in composer that can pick its own context and use the terminal Generation of git commit messages File pill recommendations in chat/composer @Recommended in chat/composer to semantically search for context Nicer image-dropping experience Several p..."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-42-x",
+    "title": "Composer History, @Lint Errors, VS Code 1.93.1",
+    "url": "https://cursor.com/changelog/0-42-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-10-09T10:35:00+00:00",
+    "summary": "UPDATE (0.42.1 - 0.42.5): Fixes the following upstream security issue: CVE-2024-43601 . Also fixes a few composer bugs and a bug with Cursor Tab. Allows composer to auto apply to files not in its context. Also includes additional mitigations to CVE-2024-48919 . Reduces a few long-tail connection errors. Adds escape..."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-41-x",
+    "title": "Cursor Tab Python Auto Import, Composer Improvements, Remote SSH to Mac Support",
+    "url": "https://cursor.com/changelog/0-41-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-09-17T10:35:00+00:00",
+    "summary": "*This update fixes the following security issue: * *CVE-2024-45599* *.*"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-40-x",
+    "title": "New Chat UX, Default-On Composer, New Cursor Tab Model",
+    "url": "https://cursor.com/changelog/0-40-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-08-22T10:35:00+00:00",
+    "summary": "UPDATE (0.40.1–0.40.4): Fixes a bug with apply on remote ssh, a few chat bugs, speeds up Cursor Tab for Europe/Asia users, fixes some outstanding Cursor Tab bugs and notifications hiding the chat input, and includes a fix for Cursor asking for permissions for files in your `~/Library` folder on MacOS (upstream issue..."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-39-x",
+    "title": "Faster Cursor Tab, More Composer improvements",
+    "url": "https://cursor.com/changelog/0-39-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-08-02T14:49:00+00:00",
+    "summary": "src > vs > workbench > contrib > aiCpp > electron-sandbox' directory. Th..."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-38-x",
+    "title": "Copilot++ Chunked Streaming (beta), Composer improvements",
+    "url": "https://cursor.com/changelog/0-38-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-07-23T10:35:00+00:00",
+    "summary": "UPDATE (0.38.1): Fixes a bug where OpenAI API Key users would be migrated to Claude 3.5 Sonnet"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-37-x",
+    "title": "Composer (beta)",
+    "url": "https://cursor.com/changelog/0-37-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-07-13T10:35:00+00:00",
+    "summary": "This build comes with a new experimental multi-file editing feature. To enable it, click the settings gear, head to Beta, and activate \"Composer.\" To use it, hit Cmd+I. We'd love to hear your thoughts ."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-36-x",
+    "title": "Instant Applies, Docs Management",
+    "url": "https://cursor.com/changelog/0-36-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-07-03T10:35:00+00:00",
+    "summary": "UPDATE (0.36.1–0.36.2): Fixes #1526, cmd-shift-F on macOS x64 devices . Also fixes official docs taking a long time to show up, and cmd-K stickiness being buggy ."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-35-x",
+    "title": "Default-on Cursor Prediction, Remote Tunnels & More Robust SSH",
+    "url": "https://cursor.com/changelog/0-35-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-06-08T10:35:00+00:00",
+    "summary": "UPDATE (0.35.1): Disables Copilot++ partial accepts by default and makes the keybinding configurable (go to Cursor Settings > Features > Cpp to re-enable). Makes gpt-4o the default model."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-34-x",
+    "title": "VS Code 1.89, New Cursor Prediction UI, Gemini 1.5 Flash, Copilot++ partial completion",
+    "url": "https://cursor.com/changelog/0-34-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-05-26T10:35:00+00:00",
+    "summary": "UPDATE (0.34.1-0.34.6): Fixes long context models in the model toggle, an empty AI Review tab, Copilot++ preview bugs, the Mac icon size, and remote ssh fixes."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-33-x",
+    "title": "Networking Stability, Command-K Autoselect",
+    "url": "https://cursor.com/changelog/0-33-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-05-03T10:35:00+00:00",
+    "summary": "UPDATE (0.33.1–0.33.3): Fix to settings toggles, fix to Copilot++ diffbox performance, onboarding tweaks."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-32-x",
+    "title": "Improved Copilot++ UX, New GPT-4 Model",
+    "url": "https://cursor.com/changelog/0-32-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-04-12T06:44:00+00:00",
+    "summary": "UPDATE (0.32.1–0.32.7): Fixes a performance issue with the new Copilot++ syntax highlighting, changes AI Notes to be default disabled, changes the naming of the `main` Copilot++ model to `legacy`, fixes Copilot++ being slower over SSH, fixes to the Copilot++ preview box."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-31-x",
+    "title": "Long Context Chat Beta",
+    "url": "https://cursor.com/changelog/0-31-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-04-01T06:44:00+00:00",
+    "summary": "UPDATE (0.31.1–0.31.3): Adds back in AI Review (alpha), fixes the \"Cursor Settings\" menu item, and fixes a bug where @web doesn't return a response."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-30-x",
+    "title": "Faster Copilot++, Claude",
+    "url": "https://cursor.com/changelog/0-30-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-03-20T06:44:00+00:00",
+    "summary": "Faster Copilot++: We've made Copilot++ ~2x faster! This speed bump comes from a new model / faster inference. ~50% of users are already on this model, and it will roll out to everyone over a few days. If you'd like to enable the model immediately, you can control your model in the bottom bar of the editor. Stable Cl..."
+  },
+  {
+    "id": "https://cursor.com/changelog/claude-support",
+    "title": "Claude Support",
+    "url": "https://cursor.com/changelog/claude-support",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-03-12T06:44:00+00:00",
+    "summary": "If you're a Pro or Business user, you can add \"claude-3-opus\" as a custom model in the Settings page and use 10 fast requests per day for free (unlimited slow, but the delay increases exponentially)."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-29-x",
+    "title": "Polish",
+    "url": "https://cursor.com/changelog/0-29-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-03-01T06:44:00+00:00",
+    "summary": "AI Notes enabled by default (hold shift on any symbol), better in-editor chat, auto-execute interpreter mode, better onboarding styling, nicer feedback modal, and a few stability fixes."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-28-x",
+    "title": "VS Code 1.86.2",
+    "url": "https://cursor.com/changelog/0-28-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-02-23T06:44:00+00:00",
+    "summary": "Cursor is now based on VS Code 1.86.2! Among other things, this adds sticky scroll support to tree views. Also, cmdk prompt bars are now sticky."
+  },
+  {
+    "id": "https://cursor.com/changelog/0-27-x",
+    "title": "Linter, Interpreter Mode Updates",
+    "url": "https://cursor.com/changelog/0-27-x",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-02-15T02:09:00+00:00",
+    "summary": "Two new updates to experimental features:"
+  },
+  {
+    "id": "https://cursor.com/changelog/0-26",
+    "title": "AI Previews Beta",
+    "url": "https://cursor.com/changelog/0-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2024-02-09T02:09:00+00:00",
+    "summary": "AI Previews: this is an experimental new code reading feature. After enabling in the \"More\" tab beside Chat, just hold shift to see a generate some quick notes about the symbol you're on. If you'd like us to dedicate more time to this direction, please let us know ."
+  }
+]

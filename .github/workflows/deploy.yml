@@ -1,0 +1,80 @@
+name: 뉴스 수집 & 배포
+
+on:
+  # 6시간마다 자동 실행
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # 수동 실행
+  workflow_dispatch:
+
+  # main 브랜치에 push 시 실행 (index.html, style.css, src/ 변경 시)
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.html'
+      - 'style.css'
+      - 'src/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+
+# GitHub Pages 배포 권한
+permissions:
+  contents: write     # news.json 커밋용
+  pages: write
+  id-token: write
+
+# 동시 배포 방지 (진행 중인 배포는 취소하지 않고 대기)
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect-build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: uv 설치
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Python 환경 설정
+        run: uv sync
+
+      - name: 뉴스 수집
+        run: uv run python src/collect.py
+
+      - name: 변경된 news.json 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "news.json 변경 없음 — 커밋 건너뜀"
+          else
+            git commit -m "chore: 뉴스 데이터 업데이트 [skip ci]"
+            git push
+          fi
+
+      - name: 정적 사이트 빌드
+        run: uv run python src/build.py
+
+      - name: GitHub Pages 설정
+        uses: actions/configure-pages@v5
+
+      - name: dist/ 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
