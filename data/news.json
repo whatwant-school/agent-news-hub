@@ -1,5 +1,14 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260310.4653b126f",
+    "title": "Release v0.34.0-nightly.20260310.4653b126f",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260310.4653b126f",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T02:58:17+00:00",
+    "summary": "What's Changed\n\nfix(core): whitelist TERM and COLORTERM in environment sanitization by @deadsmash07 in #20514\nfix(billing): fix overage strategy lifecycle and settings integration by @gsquared94 in #21236\nfix: expand paste placeholders in TextInput on submit by @Jefftree in #19946\nfix(core): add in-memory cache to ChatRecordingService to prevent OOM by @SandyTao520 in #21502\nfeat(cli): overhaul thinking UI by @keithguerin in #18725\nfix(ui): unify Ctrl+O expansion hint experience across buffer mo"
+  },
+  {
     "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2172",
     "title": "v2.1.72",
     "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2172",
