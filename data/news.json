@@ -1,5 +1,23 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.12",
+    "title": "Release v0.33.0-preview.12",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.12",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T15:29:45+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 5dd2dab to release/v0.33.0-preview.11-pr-21871 by @gemini-cli-robot in #21876\n\nFull Changelog: v0.33.0-preview.11...v0.33.0-preview.12"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.11",
+    "title": "Release v0.33.0-preview.11",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.11",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T13:27:21+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 35ee2a8 to release/v0.33.0-preview.10-pr-21713 by @gemini-cli-robot in #21859\n\nFull Changelog: v0.33.0-preview.10...v0.33.0-preview.11"
+  },
+  {
     "id": "tag:github.com,2008:Repository/968197216/v0.34.0-nightly.20260310.4653b126f",
     "title": "Release v0.34.0-nightly.20260310.4653b126f",
     "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-nightly.20260310.4653b126f",
