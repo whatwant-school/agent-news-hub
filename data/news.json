@@ -1,5 +1,68 @@
 [
   {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2172",
+    "title": "v2.1.72",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2172",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-10T02:10:41.694322+00:00",
+    "summary": "Fixed tool search to activate even with `ANTHROPIC_BASE_URL` as long as `ENABLE_TOOL_SEARCH` is set.Added `w` key in `/copy` to write the focused selection directly to a file, bypassing the clipboard (useful over SSH)Added optional description argument to `/plan` (e.g., `/plan fix the auth bug`) that enters plan mode and immediately startsAdded `ExitWorktree` tool to leave an `EnterWorktree` sessionAdded `CLAUDE_CODE_DISABLE_CRON` environment variable to immediately stop scheduled cron jobs mid-"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.10",
+    "title": "Release v0.33.0-preview.10",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.10",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T02:03:14+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 936f624 to release/v0.33.0-preview.9-pr-21702 to patch version v0.33.0-preview.9 and create version 0.33.0-preview.10 by @gemini-cli-robot in #21800\n\nFull Changelog: v0.33.0-preview.9...v0.33.0-preview.10"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.9",
+    "title": "Release v0.33.0-preview.9",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.9",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T00:52:14+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 9a74271 to release/v0.33.0-preview.8-pr-21236 [CONFLICTS] by @gemini-cli-robot in #21788\n\nFull Changelog: v0.33.0-preview.8...v0.33.0-preview.9"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.72",
+    "title": "v2.1.72",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.72",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-10T00:43:03+00:00",
+    "summary": "What's changed\n\nChanged tool search to bypass the third-party proxy gate when the environment variable is set (replaces CLAUDE_CODE_PROXY_SUPPORTS_TOOL_REFERENCE, now removed)\nAdded w key in /copy to write the focused selection directly to a file, bypassing the clipboard (useful over SSH)\nAdded optional description argument to /plan (e.g., /plan fix the auth bug) that enters plan mode and immediately starts\nAdded claude plugins as an alias for claude plugin\nAdded ExitWorktree tool to leave an En"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.8",
+    "title": "Release v0.33.0-preview.8",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.8",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-09T23:46:08+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 4f4431e to release/v0.33.0-preview.7-pr-21750 to patch version v0.33.0-preview.7 and create version 0.33.0-preview.8 by @gemini-cli-robot in #21782\n\nFull Changelog: v0.33.0-preview.7...v0.33.0-preview.8"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.7",
+    "title": "Release v0.33.0-preview.7",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.7",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-09T22:14:46+00:00",
+    "summary": "Full Changelog: v0.33.0-preview.6...v0.33.0-preview.7"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.6",
+    "title": "Release v0.33.0-preview.6",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.6",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-09T22:13:45+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 7837194 to release/v0.33.0-preview.5-pr-21487 to patch version v0.33.0-preview.5 and create version 0.33.0-preview.6 by @gemini-cli-robot in #21720\n\nFull Changelog: v0.33.0-preview.5...v0.33.0-preview.6"
+  },
+  {
     "id": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
     "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
     "url": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
