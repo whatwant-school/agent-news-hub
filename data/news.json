@@ -1,5 +1,23 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0",
+    "title": "Release v0.33.0",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-11T02:23:34+00:00",
+    "summary": "What's Changed\n\nDocs: Update model docs to remove Preview Features. by @jkcinouye in #20084\ndocs: fix typo in installation documentation by @AdityaSharma-Git3207 in #20153\ndocs: add Windows PowerShell equivalents for environments and scripting by @scidomino in #20333\nfix(core): parse raw ASCII buffer strings in Gaxios errors by @sehoon38 in #20626\nchore(release): bump version to 0.33.0-nightly.20260227.ba149afa0 by @galz10 in #20637\nfix(github): use robot PAT for automated PRs to pass CLA check "
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-preview.0",
+    "title": "Release v0.34.0-preview.0",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-preview.0",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-11T02:11:23+00:00",
+    "summary": "What's Changed\n\nfeat(cli): add chat resume footer on session quit by @lordshashank in #20667\nSupport bold and other styles in svg snapshots by @jacob314 in #20937\nfix(core): increase A2A agent timeout to 30 minutes by @adamfweidman in #21028\nCleanup old branches. by @jacob314 in #19354\nchore(release): bump version to 0.34.0-nightly.20260303.34f0c1538 by @gemini-cli-robot in #21034\nfeat(ui): standardize semantic focus colors and enhance history visibility by @keithguerin in #20745\nfix: merge dupl"
+  },
+  {
     "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.15",
     "title": "Release v0.33.0-preview.15",
     "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.15",
