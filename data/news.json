@@ -1,5 +1,23 @@
 [
   {
+    "id": "https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/",
+    "title": "Plan mode is now available in Gemini CLI",
+    "url": "https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/",
+    "source": "Google Developers Blog",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-11T19:05:50.337564+00:00",
+    "summary": "Gemini CLI now features Plan Mode, a read-only environment that allows the AI to analyze complex codebases and map out architectural changes without the risk of accidental execution. By leveraging the new ask_user tool and expanded Model Context Protocol (MCP) support, developers can collaboratively refine strategies and pull in external data before committing to implementation."
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.73",
+    "title": "v2.1.73",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.73",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-11T18:26:43+00:00",
+    "summary": "What's changed\n\nAdded modelOverrides setting to map model picker entries to custom provider model IDs (e.g. Bedrock inference profile ARNs)\nAdded actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies, NODE_EXTRA_CA_CERTS)\nFixed freezes and 100% CPU loops triggered by permission prompts for complex bash commands\nFixed a deadlock that could freeze Claude Code when many skill files changed at once (e.g. during git pull in a repo with a lar"
+  },
+  {
     "id": "tag:github.com,2008:Repository/968197216/v0.33.0",
     "title": "Release v0.33.0",
     "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0",
@@ -25,6 +43,15 @@
     "tool": "Gemini CLI",
     "published_at": "2026-03-11T00:50:11+00:00",
     "summary": "What's Changed\n\nfix(patch): cherry-pick 3ff68a9 to release/v0.33.0-preview.14-pr-21884 [CONFLICTS] by @gemini-cli-robot in #21952\n\nFull Changelog: v0.33.0-preview.14...v0.33.0-preview.15"
+  },
+  {
+    "id": "https://cursor.com/changelog/03-11-26",
+    "title": "New Plugins on the Cursor Marketplace",
+    "url": "https://cursor.com/changelog/03-11-26",
+    "source": "Cursor Changelog",
+    "tool": "Cursor",
+    "published_at": "2026-03-11T00:00:00+00:00",
+    "summary": "We've added more than 30 new plugins from partners such as Atlassian, Datadog, GitLab, Glean, Hugging Face, monday.com, and PlanetScale. Cursor can now read from, write to, and take actions across more of your stack."
   },
   {
     "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.14",
