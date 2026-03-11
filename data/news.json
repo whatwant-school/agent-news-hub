@@ -1,5 +1,32 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.15",
+    "title": "Release v0.33.0-preview.15",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.15",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-11T00:50:11+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 3ff68a9 to release/v0.33.0-preview.14-pr-21884 [CONFLICTS] by @gemini-cli-robot in #21952\n\nFull Changelog: v0.33.0-preview.14...v0.33.0-preview.15"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.14",
+    "title": "Release v0.33.0-preview.14",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.14",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T22:24:15+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 1b69637 to release/v0.33.0-preview.13-pr-21467 [CONFLICTS] by @gemini-cli-robot in #21930\n\nFull Changelog: v0.33.0-preview.13...v0.33.0-preview.14"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.13",
+    "title": "Release v0.33.0-preview.13",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.13",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-10T20:58:43+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick e5615f4 to release/v0.33.0-preview.12-pr-21037 to patch version v0.33.0-preview.12 and create version 0.33.0-preview.13 by @gemini-cli-robot in #21922\n\nFull Changelog: v0.33.0-preview.12...v0.33.0-preview.13"
+  },
+  {
     "id": "tag:github.com,2008:Repository/968197216/v0.33.0-preview.12",
     "title": "Release v0.33.0-preview.12",
     "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.0-preview.12",
