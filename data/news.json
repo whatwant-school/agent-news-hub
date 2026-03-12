@@ -1,5 +1,14 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-preview.1",
+    "title": "Release v0.34.0-preview.1",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-preview.1",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-12T18:28:42+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 45faf4d to release/v0.34.0-preview.0-pr-22148 [CONFLICTS] by @gemini-cli-robot in #22174\n\nFull Changelog: v0.34.0-preview.0...v0.34.0-preview.1"
+  },
+  {
     "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173",
     "title": "v2.1.73",
     "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173",
