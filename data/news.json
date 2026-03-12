@@ -1,5 +1,50 @@
 [
   {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173",
+    "title": "v2.1.73",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-12T02:23:17.985883+00:00",
+    "summary": "Added `modelOverrides` setting to map model picker entries to custom provider model IDs (e.g. Bedrock inference profile ARNs)Added actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies, `NODE_EXTRA_CA_CERTS`)Fixed freezes and 100% CPU loops triggered by permission prompts for complex bash commandsFixed a deadlock that could freeze Claude Code when many skill files changed at once (e.g. during `git pull` in a repo with a large `.claude/s"
+  },
+  {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2174",
+    "title": "v2.1.74",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2174",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-12T02:23:17.985855+00:00",
+    "summary": "Added actionable suggestions to `/context` command — identifies context-heavy tools, memory bloat, and capacity warnings with specific optimization tipsAdded `autoMemoryDirectory` setting to configure a custom directory for auto-memory storageFixed memory leak where streaming API response buffers were not released when the generator was terminated early, causing unbounded RSS growth on the Node.js/npm code pathFixed managed policy `ask` rules being bypassed by user `allow` rules or skill `allowe"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v3.72.0",
+    "title": "v3.72.0",
+    "url": "https://github.com/cline/cline/releases/tag/v3.72.0",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-12T00:53:41+00:00",
+    "summary": "Added\n\nAdded Anthropic Opus 4.6 fast mode variants\n\nFixed\n\nResolved native tool placeholder interpolation in prompts\nGemini: capped Flash output tokens to 8192 across providers\nFixed Windows unit test path normalization\nFixed flaky hooks tests on Windows\nBedrock: handle thinking and redacted_thinking blocks correctly in message conversion and streaming\nPrevent crash when list_files or list_code_definition_names receives a file path\n\nChanged\n\nUpdated Jupyter Notebook GIFs\nMarkdown image loading n"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.74",
+    "title": "v2.1.74",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.74",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-12T00:34:23+00:00",
+    "summary": "What's changed\n\nAdded actionable suggestions to /context command — identifies context-heavy tools, memory bloat, and capacity warnings with specific optimization tips\nAdded autoMemoryDirectory setting to configure a custom directory for auto-memory storage\nFixed memory leak where streaming API response buffers were not released when the generator was terminated early, causing unbounded RSS growth on the Node.js/npm code path\nFixed managed policy ask rules being bypassed by user allow rules or sk"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/824874689/v2.7.0-cli",
+    "title": "v2.7.0-cli",
+    "url": "https://github.com/cline/cline/releases/tag/v2.7.0-cli",
+    "source": "Cline Releases",
+    "tool": "Cline",
+    "published_at": "2026-03-12T00:21:04+00:00",
+    "summary": "Changelog and version bump for release (#9775)"
+  },
+  {
     "id": "https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/",
     "title": "Plan mode is now available in Gemini CLI",
     "url": "https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/",
