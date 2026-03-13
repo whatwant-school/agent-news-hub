@@ -1,5 +1,32 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/968197216/v0.35.0-nightly.20260313.bb060d7a9",
+    "title": "Release v0.35.0-nightly.20260313.bb060d7a9",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-nightly.20260313.bb060d7a9",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-13T00:45:12+00:00",
+    "summary": "What's Changed\n\nfix(docs): update theme screenshots and add missing themes by @ashmod in #20689\nrefactor(cli): rename 'return' key to 'enter' internally by @scidomino in #21796\nbuild(release): restrict npm bundling to non-stable tags by @sehoon38 in #21821\nfix(core): override toolRegistry property for sub-agent schedulers by @gsquared94 in #21766\nfix(cli): make footer items equally spaced by @jacob314 in #21843\ndocs: clarify global policy rules application in plan mode by @jerop in #21864\nfix(co"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.33.1",
+    "title": "Release v0.33.1",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.33.1",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-12T22:20:34+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 8432bce to release/v0.33.0-pr-22069 to patch version v0.33.0 and create version 0.33.1 by @gemini-cli-robot in #22206\n\nFull Changelog: v0.33.0...v0.33.1"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-preview.2",
+    "title": "Release v0.34.0-preview.2",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-preview.2",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-12T21:07:46+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 8432bce to release/v0.34.0-preview.1-pr-22069 to patch version v0.34.0-preview.1 and create version 0.34.0-preview.2 by @gemini-cli-robot in #22205\n\nFull Changelog: v0.34.0-preview.1...v0.34.0-preview.2"
+  },
+  {
     "id": "tag:github.com,2008:Repository/968197216/v0.34.0-preview.1",
     "title": "Release v0.34.0-preview.1",
     "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-preview.1",
