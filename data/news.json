@@ -1,5 +1,41 @@
 [
   {
+    "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2176",
+    "title": "v2.1.76",
+    "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2176",
+    "source": "Claude Code Changelog",
+    "tool": "Claude Code",
+    "published_at": "2026-03-14T02:11:45.161783+00:00",
+    "summary": "Added MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL)Added new `Elicitation` and `ElicitationResult` hooks to intercept and override responses before they're sent backAdded `-n` / `--name ` CLI flag to set a display name for the session at startupAdded `worktree.sparsePaths` setting for `claude --worktree` in large monorepos to check out only the directories you need via git sparse-checkoutAdded `PostCompact` "
+  },
+  {
+    "id": "tag:github.com,2008:Repository/937253475/v2.1.76",
+    "title": "v2.1.76",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76",
+    "source": "Claude Code Releases",
+    "tool": "Claude Code",
+    "published_at": "2026-03-14T01:23:58+00:00",
+    "summary": "What's changed\n\nAdded MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL)\nAdded new Elicitation and ElicitationResult hooks to intercept and override responses before they're sent back\nAdded -n / --name &lt;name&gt; CLI flag to set a display name for the session at startup\nAdded worktree.sparsePaths setting for claude --worktree in large monorepos to check out only the directories you need via git sparse-checkout\n"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.35.0-nightly.20260314.3038fdce2",
+    "title": "Release v0.35.0-nightly.20260314.3038fdce2",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-nightly.20260314.3038fdce2",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-14T00:42:23+00:00",
+    "summary": "What's Changed\n\nChangelog for v0.33.1 by @gemini-cli-robot in #22235\n\nFull Changelog: v0.35.0-nightly.20260313.bb060d7a9...v0.35.0-nightly.20260314.3038fdce2"
+  },
+  {
+    "id": "tag:github.com,2008:Repository/968197216/v0.34.0-preview.3",
+    "title": "Release v0.34.0-preview.3",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0-preview.3",
+    "source": "Gemini CLI Releases",
+    "tool": "Gemini CLI",
+    "published_at": "2026-03-13T23:57:07+00:00",
+    "summary": "What's Changed\n\nfix(patch): cherry-pick 24adacd to release/v0.34.0-preview.2-pr-22332 to patch version v0.34.0-preview.2 and create version 0.34.0-preview.3 by @gemini-cli-robot in #22391\n\nFull Changelog: v0.34.0-preview.2...v0.34.0-preview.3"
+  },
+  {
     "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2175",
     "title": "v2.1.75",
     "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2175",
